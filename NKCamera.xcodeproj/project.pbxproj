@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3060F2FB1B69B0250004B499 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3060F2FA1B69B0250004B499 /* Images.xcassets */; };
+		3060F3241B69B0A60004B499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060F31C1B69B0A60004B499 /* AppDelegate.swift */; };
+		3060F3261B69B0A60004B499 /* NKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060F31F1B69B0A60004B499 /* NKViewController.swift */; };
+		3060F32D1B69BEAB0004B499 /* change_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F3271B69BEAB0004B499 /* change_camera@2x.png */; };
+		3060F32E1B69BEAB0004B499 /* exposure_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F3281B69BEAB0004B499 /* exposure_circle@2x.png */; };
+		3060F32F1B69BEAB0004B499 /* flash_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F3291B69BEAB0004B499 /* flash_on@2x.png */; };
+		3060F3301B69BEAB0004B499 /* flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F32A1B69BEAB0004B499 /* flash@2x.png */; };
+		3060F3311B69BEAB0004B499 /* focus_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F32B1B69BEAB0004B499 /* focus_circle@2x.png */; };
+		3060F3321B69BEAB0004B499 /* shutter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F32C1B69BEAB0004B499 /* shutter@2x.png */; };
+		3060F3381B69BF0A0004B499 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F3341B69BF0A0004B499 /* Default-568h@2x.png */; };
+		3060F3391B69BF0A0004B499 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F3351B69BF0A0004B499 /* Default-667h@2x.png */; };
+		3060F33A1B69BF0A0004B499 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F3361B69BF0A0004B499 /* Default-736h@3x.png */; };
+		3060F33B1B69BF0A0004B499 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3060F3371B69BF0A0004B499 /* Default@2x.png */; };
+		3060F3401B6A21AF0004B499 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3060F33F1B6A21AF0004B499 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3060F2EE1B69B0250004B499 /* NKCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3060F2F21B69B0250004B499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3060F2FA1B69B0250004B499 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3060F31C1B69B0A60004B499 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3060F31F1B69B0A60004B499 /* NKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKViewController.swift; sourceTree = "<group>"; };
+		3060F3271B69BEAB0004B499 /* change_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "change_camera@2x.png"; path = "NKCamera/Image/change_camera@2x.png"; sourceTree = SOURCE_ROOT; };
+		3060F3281B69BEAB0004B499 /* exposure_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exposure_circle@2x.png"; path = "NKCamera/Image/exposure_circle@2x.png"; sourceTree = SOURCE_ROOT; };
+		3060F3291B69BEAB0004B499 /* flash_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flash_on@2x.png"; path = "NKCamera/Image/flash_on@2x.png"; sourceTree = SOURCE_ROOT; };
+		3060F32A1B69BEAB0004B499 /* flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flash@2x.png"; path = "NKCamera/Image/flash@2x.png"; sourceTree = SOURCE_ROOT; };
+		3060F32B1B69BEAB0004B499 /* focus_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "focus_circle@2x.png"; path = "NKCamera/Image/focus_circle@2x.png"; sourceTree = SOURCE_ROOT; };
+		3060F32C1B69BEAB0004B499 /* shutter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shutter@2x.png"; path = "NKCamera/Image/shutter@2x.png"; sourceTree = SOURCE_ROOT; };
+		3060F3341B69BF0A0004B499 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3060F3351B69BF0A0004B499 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		3060F3361B69BF0A0004B499 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		3060F3371B69BF0A0004B499 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3060F33F1B6A21AF0004B499 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3060F2EB1B69B0240004B499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3060F2E51B69B0240004B499 = {
+			isa = PBXGroup;
+			children = (
+				3060F2F01B69B0250004B499 /* NKCamera */,
+				3060F2EF1B69B0250004B499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3060F2EF1B69B0250004B499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3060F2EE1B69B0250004B499 /* NKCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3060F2F01B69B0250004B499 /* NKCamera */ = {
+			isa = PBXGroup;
+			children = (
+				3060F31B1B69B0A60004B499 /* Swift */,
+				3060F3131B69B0A60004B499 /* Image */,
+				3060F2F11B69B0250004B499 /* Supporting Files */,
+			);
+			path = NKCamera;
+			sourceTree = "<group>";
+		};
+		3060F2F11B69B0250004B499 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3060F2FA1B69B0250004B499 /* Images.xcassets */,
+				3060F2F21B69B0250004B499 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3060F3131B69B0A60004B499 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3060F3141B69B0A60004B499 /* System */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3060F3141B69B0A60004B499 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				3060F3281B69BEAB0004B499 /* exposure_circle@2x.png */,
+				3060F32B1B69BEAB0004B499 /* focus_circle@2x.png */,
+				3060F32A1B69BEAB0004B499 /* flash@2x.png */,
+				3060F3291B69BEAB0004B499 /* flash_on@2x.png */,
+				3060F3271B69BEAB0004B499 /* change_camera@2x.png */,
+				3060F32C1B69BEAB0004B499 /* shutter@2x.png */,
+				3060F3331B69BF0A0004B499 /* LaunchScreen */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		3060F31B1B69B0A60004B499 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				3060F31C1B69B0A60004B499 /* AppDelegate.swift */,
+				3060F31F1B69B0A60004B499 /* NKViewController.swift */,
+				3060F33F1B6A21AF0004B499 /* README.md */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		3060F3331B69BF0A0004B499 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3060F3341B69BF0A0004B499 /* Default-568h@2x.png */,
+				3060F3351B69BF0A0004B499 /* Default-667h@2x.png */,
+				3060F3361B69BF0A0004B499 /* Default-736h@3x.png */,
+				3060F3371B69BF0A0004B499 /* Default@2x.png */,
+			);
+			name = LaunchScreen;
+			path = NKCamera/Image/LaunchScreen;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3060F2ED1B69B0240004B499 /* NKCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3060F30D1B69B0250004B499 /* Build configuration list for PBXNativeTarget "NKCamera" */;
+			buildPhases = (
+				3060F2EA1B69B0240004B499 /* Sources */,
+				3060F2EB1B69B0240004B499 /* Frameworks */,
+				3060F2EC1B69B0240004B499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKCamera;
+			productName = NKCamera;
+			productReference = 3060F2EE1B69B0250004B499 /* NKCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3060F2E61B69B0240004B499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "nanoka____";
+				TargetAttributes = {
+					3060F2ED1B69B0240004B499 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3060F2E91B69B0240004B499 /* Build configuration list for PBXProject "NKCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3060F2E51B69B0240004B499;
+			productRefGroup = 3060F2EF1B69B0250004B499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3060F2ED1B69B0240004B499 /* NKCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3060F2EC1B69B0240004B499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3060F2FB1B69B0250004B499 /* Images.xcassets in Resources */,
+				3060F3391B69BF0A0004B499 /* Default-667h@2x.png in Resources */,
+				3060F3311B69BEAB0004B499 /* focus_circle@2x.png in Resources */,
+				3060F3381B69BF0A0004B499 /* Default-568h@2x.png in Resources */,
+				3060F3321B69BEAB0004B499 /* shutter@2x.png in Resources */,
+				3060F32E1B69BEAB0004B499 /* exposure_circle@2x.png in Resources */,
+				3060F32F1B69BEAB0004B499 /* flash_on@2x.png in Resources */,
+				3060F3301B69BEAB0004B499 /* flash@2x.png in Resources */,
+				3060F33B1B69BF0A0004B499 /* Default@2x.png in Resources */,
+				3060F32D1B69BEAB0004B499 /* change_camera@2x.png in Resources */,
+				3060F33A1B69BF0A0004B499 /* Default-736h@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3060F2EA1B69B0240004B499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3060F3401B6A21AF0004B499 /* README.md in Sources */,
+				3060F3261B69B0A60004B499 /* NKViewController.swift in Sources */,
+				3060F3241B69B0A60004B499 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3060F30B1B69B0250004B499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3060F30C1B69B0250004B499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3060F30E1B69B0250004B499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NKCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3060F30F1B69B0250004B499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NKCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3060F2E91B69B0240004B499 /* Build configuration list for PBXProject "NKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3060F30B1B69B0250004B499 /* Debug */,
+				3060F30C1B69B0250004B499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3060F30D1B69B0250004B499 /* Build configuration list for PBXNativeTarget "NKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3060F30E1B69B0250004B499 /* Debug */,
+				3060F30F1B69B0250004B499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3060F2E61B69B0240004B499 /* Project object */;
+}
