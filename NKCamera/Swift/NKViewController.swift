@@ -237,7 +237,7 @@ class NKViewController : UIViewController, AVCaptureVideoDataOutputSampleBufferD
                     }
                 }
                 sleep(1);
-            };
+            }
         }
         
         // アルバムに画像を保存
