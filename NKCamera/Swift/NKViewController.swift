@@ -90,7 +90,7 @@ class NKViewController : UIViewController, AVCaptureVideoDataOutputSampleBufferD
         //露出のプロパティを監視する
         AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo).addObserver(self, forKeyPath: "adjustingExposure", options: NSKeyValueObservingOptions.New, context: nil)
         
-        //マルチタスクから復帰したときに呼ばれる
+        //バックグラウンドになった時に呼ばれる
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "applicationBecomeActive", name: UIApplicationDidBecomeActiveNotification, object: nil)
         
         //マルチタスクから復帰したときに呼ばれる
